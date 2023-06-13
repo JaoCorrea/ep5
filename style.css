@@ -1,0 +1,30 @@
+body{
+    grid-template-areas:
+        "cab cab cab"
+        "lad pri pri"
+        "rod rod rod" ;
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 1000px auto;
+    display: grid;
+}
+
+.grid-h{
+    background-color: blue;
+    grid-area: cab;
+}
+
+
+.grid-a{
+    background-color: darkgreen;
+    grid-area: lad;
+}
+
+.grid-m{
+    background-color: hotpink;
+    grid-area: pri;
+}
+
+.grid-f{
+    background-color: deepskyblue;
+    grid-area: rod;
+}
