@@ -9,22 +9,34 @@ body{
 }
 
 .grid-h{
-    background-color: blue;
+    background-color: #141414;
     grid-area: cab;
 }
 
 
 .grid-a{
-    background-color: darkgreen;
+    background-color: #474747;
     grid-area: lad;
 }
 
 .grid-m{
-    background-color: hotpink;
+    background-color: #56574F;
     grid-area: pri;
 }
 
 .grid-f{
-    background-color: deepskyblue;
+    background-color: #141414;
     grid-area: rod;
+}
+
+/*
+#141414
+#474747
+#56574F
+#9A988C
+#B8B3A0
+*/
+
+h1{
+    color: white;
 }
