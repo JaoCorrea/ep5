@@ -6,6 +6,8 @@ body{
     grid-template-columns: 20% auto auto;
     grid-template-rows: auto 1000px auto;
     display: grid;
+    
+
 }
 
 .grid-h{
@@ -22,6 +24,11 @@ body{
 .grid-m{
     background-color: #56574F;
     grid-area: pri;
+    height: 600px;
+    background-color: rgb(75, 61, 64);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .grid-f{
@@ -39,4 +46,28 @@ body{
 
 h1{
     color: white;
+}
+
+
+.filho img{
+    width: 350px;
+    height: 200px;
+}
+
+.filho{
+    background-color: #fff;
+    width: 400;
+    box-shadow: 4px 4px 4px 4px #aaaa;
+    border-radius: 5px;
+}
+
+.filho div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 150px;
 }
