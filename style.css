@@ -50,24 +50,38 @@ h1{
 
 
 .filho img{
-    width: 350px;
+    width: 200px;
     height: 200px;
 }
 
 .filho{
     background-color: #fff;
-    width: 400;
+    width: 300;
     box-shadow: 4px 4px 4px 4px #aaaa;
     border-radius: 5px;
+    
+    
 }
 
 .filho div{
-    display: flex;
+    display: flexbox;
     flex-direction: column;
     text-align: center;
 }
-
+     
 img{
     height: 100px;
-    width: 150px;
+    width: 100px;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;  
+    
+}
+
+
+img:hover{
+    height: 300px;
+    width: 450px;
+    background-color: #ff0000;
+
+    
 }
