@@ -6,13 +6,21 @@ body{
     grid-template-columns: 20% auto auto;
     grid-template-rows: auto 1000px auto;
     display: grid;
+}
+
+.logo{
+    height:220px;
+    width:220;
+}
     
 
-}
+
+
 
 .grid-h{
     background-color: #141414;
     grid-area: cab;
+    
 }
 
 
@@ -24,16 +32,19 @@ body{
 .grid-m{
     background-color: #56574F;
     grid-area: pri;
-    height: 600px;
+    height: 1000px;
     background-color: rgb(75, 61, 64);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .grid-f{
     background-color: #141414;
     grid-area: rod;
+    padding: 130px;
 }
 
 /*
@@ -59,14 +70,18 @@ h1{
     width: 300;
     box-shadow: 4px 4px 4px 4px #aaaa;
     border-radius: 5px;
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    padding: 60px;
 }
 
 .filho div{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
     text-align: center;
+    
 }
      
 img{
@@ -78,10 +93,4 @@ img{
 }
 
 
-img:hover{
-    height: 300px;
-    width: 450px;
-    background-color: #ff0000;
-
-    
-}
+/*
