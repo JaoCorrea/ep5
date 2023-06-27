@@ -8,7 +8,7 @@ body{
     display: grid;
 }
 
-.logo{
+.logo2{
     height:220px;
     width:220;
 }
@@ -37,14 +37,14 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
 
 }
 
 .grid-f{
     background-color: #141414;
     grid-area: rod;
-    padding: 130px;
+    padding: 100px;
 }
 
 /*
@@ -83,14 +83,9 @@ h1{
     text-align: center;
     
 }
-     
-img{
-    height: 100px;
-    width: 100px;
-    background-color: #ccc;
-    transition: background-color 0.3s ease;  
-    
+
+.filho img:hover{
+    height: 400px;
+    width: 400px;
 }
-
-
 /*
