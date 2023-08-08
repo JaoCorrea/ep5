@@ -18,14 +18,20 @@ body{
     height:230px;
     width:300px;
 }
-    
+
+.gremio{
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
 
 
 
 
 .grid-h{
-    background-color: #141414;
+    background-color:4px 4px 4px #474747;
     grid-area: cab;
+    box-shadow: #706a6a;
     
 }
 
