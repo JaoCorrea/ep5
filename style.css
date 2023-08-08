@@ -8,9 +8,15 @@ body{
     display: grid;
 }
 
+.login{
+    height: 230px;
+    width: 300px;
+
+}
+
 .logo2{
-    height:220px;
-    width:220;
+    height:230px;
+    width:300px;
 }
     
 
@@ -33,7 +39,7 @@ body{
     background-color: #56574F;
     grid-area: pri;
     height: 1000px;
-    background-color: rgb(75, 61, 64);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +50,7 @@ body{
 .grid-f{
     background-color: #141414;
     grid-area: rod;
-    padding: 100px;
+
 }
 
 /*
@@ -85,8 +91,8 @@ h1{
 }
 
 .filho img:hover{
-    height: 400px;
-    width: 400px;
+    height: 320px;
+    width: 320px;
 }
 
 
@@ -94,3 +100,9 @@ h1{
     height: 250px;
     width: 350px;
 }
+
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
