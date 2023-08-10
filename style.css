@@ -9,23 +9,18 @@ body{
 }
 
 .login{
-    height: 230px;
+    height: 200px;
     width: 300px;
 
 }
 
-.logo2{
-    height:230px;
-    width:300px;
-}
 
-.gremio{
+.logos img{
     height: 100px;
     width: 100px;
-    position: relative;
+
+
 }
-
-
 
 
 .grid-h{
@@ -64,7 +59,7 @@ body{
 #474747
 #56574F
 #9A988C
-#B8B3A0
+#B8B3A0 preç
 */
 
 h1{
