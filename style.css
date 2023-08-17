@@ -32,7 +32,7 @@ body{
 
 
 .grid-a{
-    background-color: #474747;
+    background-color: #d8d4d4;
     grid-area: lad;
 }
 
@@ -49,23 +49,14 @@ body{
 }
 
 .grid-f{
-    background-color: #141414;
+    background-color: #ffffff;
     grid-area: rod;
 
 }
 
-/*
-#141414
-#474747
-#56574F
-#9A988C
-#B8B3A0 preç
-*/
-
 h1{
     color: white;
 }
-
 
 .filho img{
     width: 200px;
@@ -101,6 +92,45 @@ h1{
     height: 250px;
     width: 350px;
 }
+
+.produto1{
+    height: 150px;
+    width: 200px;
+}
+.produto2{
+    height: 150px;
+    width: 200px;
+}
+.produto3{
+    height: 150px;
+    width: 200px;
+}
+.produto4{
+    height: 150px;
+    width: 200px;
+}
+.produto5{
+    height: 150px;
+    width: 200px;
+}
+.produto6{
+    height: 150px;
+    width: 200px;
+}
+.gremio-maior-do-sul{
+    background-color: #fff;
+    width: 300;
+    box-shadow: 4px 4px 4px 4px #aaaa;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap:wrap-reverse;
+    text-align: center;
+    flex-direction: column;
+    padding: 60px
+}
+
+
+
 
 @media screen and (min-width: 800px) {
     .container {
