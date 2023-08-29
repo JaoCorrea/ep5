@@ -15,10 +15,21 @@ body{
 }
 
 
+.lego{
+    border: black 4px solid;
+    height: 200px;
+    width: 240px;
+    
+
+
+}
+
 .logos img{
+    border: black 4px solid;
     height: 100px;
     width: 100px;
-
+    margin-left: 1700px;    
+    margin-top: 200px;
 
 }
 
